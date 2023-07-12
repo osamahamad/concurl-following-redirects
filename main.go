@@ -58,7 +58,7 @@ func main() {
 
 				// we need the silent flag to get rid
 				// of the progress output
-				args := []string{"--silent", u}
+				args := []string{"--silent","-L", u}
 
 				// pass all the arguments on to curl
 				args = append(args, flag.Args()...)
